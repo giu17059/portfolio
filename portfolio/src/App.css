@@ -36,3 +36,71 @@
     transform: rotate(360deg);
   }
 }
+
+
+.itemsNav {
+  text-decoration: none;
+  color: black;
+  position: relative; 
+}
+
+/* Subrayado solo en pantallas grandes */
+@media (min-width: 992px) {
+  .itemsNav::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px; 
+    background-color: black; 
+    transition: width 0.2s ease; 
+  }
+  
+  .itemsNav:hover::after {
+    width: 100%; /* Subrayado al pasar el cursor */
+  }
+  
+  .itemsNav:hover {
+    color: #444547; 
+    font-weight: bold; 
+  }
+}
+
+/* En pantallas pequeñas y medianas, no mostrar el subrayado */
+@media (max-width: 991px) {
+  .itemsNav:hover::after {
+    width: 0; /* El subrayado no aparecerá */
+  }
+
+  .itemsNav:hover {
+    background-color: #d1d1d1; /* Opcional, si deseas un color de fondo al hacer hover */
+    color: #444547; /* Puedes ajustar el color si es necesario */
+    font-weight: bold; 
+  }
+}
+
+
+
+
+
+.itemsNavActivo{
+  color: black !important;
+  font-weight: bold !important;
+}
+
+@media(min-width:992px){
+  .itemsNavActivo{
+  text-decoration: underline !important;
+  text-decoration-color:  #007bff !important;
+  text-decoration-thickness: 0.2rem !important; 
+  text-underline-offset: 0.5rem; 
+  }
+}
+
+@media (max-width:991px){
+.itemsNavActivo{
+  background-color: #d1d1d1 !important;
+}
+}
+
