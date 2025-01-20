@@ -12,7 +12,7 @@ function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <div className="container-fluid">
-        <Link className="navbar-brand ms-2" to="/">MiSitio</Link>
+        <Link className="navbar-brand ms-2" to="/">GD</Link>
         <button
             className="navbar-toggler"
             type="button"
@@ -31,6 +31,9 @@ function Navbar() {
                 </li>
                 <li className="nav-item pe-3">
                     <Link className={`nav-link  ${location.pathname === '/proyectos' ? 'itemsNavActivo' : 'itemsNav'}`} to="/proyectos">Proyectos</Link>
+                </li>
+                <li className="nav-item pe-3">
+                    <Link className={`nav-link  ${location.pathname === '/experiencia' ? 'itemsNavActivo' : 'itemsNav'}`} to="/experiencia">Experiencia</Link>
                 </li>
                 <li className="nav-item pe-3 me-lg-2">
                     <Link className={`nav-link  ${location.pathname === '/contacto' ? 'itemsNavActivo' : 'itemsNav'}`} to="/contacto">Contacto</Link>

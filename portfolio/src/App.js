@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Contacto } from './pantallas/contacto';
 import { Proyectos } from './pantallas/proyectos';
 import Navbar from './componentes/navegacion';
+import { Experiencia } from './pantallas/experiencia';
 
 
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Inicio />} />
         <Route path="/proyectos" element={<Proyectos />} />
         <Route path="/contacto" element={<Contacto />} />
+        <Route path="/experiencia" element={<Experiencia/>} />
       </Routes>
     </Router>
   );
