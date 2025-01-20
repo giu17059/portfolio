@@ -9,7 +9,6 @@ import Navbar from './componentes/navegacion';
 import { Experiencia } from './pantallas/experiencia';
 
 
-
 function App() {
   return (
     <Router>

@@ -2,6 +2,8 @@
   text-align: center;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&display=swap');
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -37,6 +39,13 @@
   }
 }
 
+h1{
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+  
 
 .itemsNav {
   text-decoration: none;
@@ -111,3 +120,17 @@
   
 }
 
+.imagenExp{
+  max-height: 15rem;
+  max-width: auto;
+  margin: auto;
+}
+
+
+.contenedorImgExp{
+  height: 15rem;
+  max-width: 20rem;
+  margin: auto;
+  background-color: #e7e6e6;
+  border-radius: 2rem;
+}

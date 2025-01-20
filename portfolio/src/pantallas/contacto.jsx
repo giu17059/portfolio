@@ -7,6 +7,6 @@ export function Contacto(){
 
 
     return(
-        <h1>contacto</h1>
+        <h1>Contacto</h1>
     )
 }
