@@ -7,7 +7,7 @@ export function Inicio (){
 
 
     return(
-        <div className="container-fluid">
+        <div className="container-fluid ">
             <div className="col">
                 <div className="row mb-5 mt-2">
                     <h2>Hola! Mi nombre es Giuliano</h2>
