@@ -135,3 +135,17 @@ h1{
   border-radius: 2rem;
 }
 
+.navMio{
+  color:#007bff !important;
+
+}
+
+ul {
+  list-style-position: inside; 
+  padding-right: 2rem; 
+}
+
+li {
+  margin: 0; 
+  padding: 0; 
+}

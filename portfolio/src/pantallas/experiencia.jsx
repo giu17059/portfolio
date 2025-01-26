@@ -8,7 +8,7 @@ export function Experiencia(){
             <div className="container-fluid">
               <h1 className="text-center mt-2 mb-4">Experiencias</h1>
               <div className="row">
-                <div className="col contenedorExp text-center">
+                <div className="col-md-6 col-12 contenedorExp text-center">
                   <div className="contenedorImgExp d-flex justify-content-center">
                     <img
                       className="imagenExp img-fluid"
@@ -24,7 +24,7 @@ export function Experiencia(){
                     Facilis?
                   </p>
                 </div>
-                <div className="col text-center contenedorExp">
+                <div className="col-md-6 col-12 text-center contenedorExp">
                     <div className='contenedorImgExp d-flex justify-content-center'>
                         <img
                     className="img-fluid"
