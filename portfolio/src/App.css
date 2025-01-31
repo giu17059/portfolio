@@ -39,7 +39,7 @@
   }
 }
 
-h1{
+.tituloo{
   font-family: "Dancing Script", serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -149,3 +149,9 @@ li {
   margin: 0; 
   padding: 0; 
 }
+
+.imgFondo{
+  background-color: #e7e6e6;
+}
+
+

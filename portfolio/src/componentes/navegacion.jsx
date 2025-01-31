@@ -12,7 +12,7 @@ function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <div className="container-fluid">
-        <Link className="navbar-brand ms-2" to="/">GD</Link>
+        <span className="navbar-brand ms-2">GD</span>
         <button
             className="navbar-toggler"
             type="button"
